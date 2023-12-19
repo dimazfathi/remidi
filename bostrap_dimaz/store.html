@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  </head>
+  <body>
+    <!-- awal navbar -->
+    <nav class="navbar navbar-expand-lg  sticky-top" style="background-color: #F1EFEF;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <img src="gambar/logo.jpg" alt="" style="height: 50px" class="rounded-circle"/>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto ">
+           
+            <li class="nav-item">
+              <a class="nav-link active text-dark fw-bold underline-text" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-dark fw-bold underline-text" href="berita.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-bold underline-text" href="#scrollspyHeading2">Kategori</a>
+            </li>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Cari makanananmu" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Cari</button>
+              </form>
+          </ul>
+          <i class=""></i>
+         
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+    <!-- awal carosel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="gambar/makan.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="gambar/makan1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="gambar/makan2.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- akhir carosel -->
+    <div class="container-fluid">
+      <div class="text-center" style="font-size: 35px; font-family: Georgia, 'Times New Roman', Times, serif;color: black;">Best seller</div> 
+      <div class="text-center" style="font-size:55px; margin-top: -30px; font-family:Century ; color: darkorange;">Menu Kami</div></p>
+    </div>
+   
+    <div class="container-fluid" style="background-color: #F1EFEF;">
+        <div class="row d-flex justify-content-center">
+    
+            <div class="card m-2 col-lg-2 col-md-4 col-sm-6" style="width: 200px; background-color: #F0F0F0; " >
+            <img src="gambar/pecel.jpg" class="card-img-top" alt="..." style="height: 160px ;">
+            <div class="card-body">
+            <h5 class="card-title text-center">PECEL</h5>
+            <p class=" text-center"> <b>Harga mulai  <br>RP 7.000</b> <br>per porsi. </p>
+            <i class="bi bi-star-fill" style="color: darkorange;"></i>
+            <i class="bi bi-star-fill" style="color: darkorange;"></i>
+            <i class="bi bi-star-fill" style="color: darkorange;"></i>
+            <i class="bi bi-star-fill" style="color: darkorange;"></i>
+            <i class="bi bi-star-half" style="color: darkorange;"></i>
+            <a href="#" class="btn btn-outline-success">Beli Sekarang</a>
+            </div>
+          </div>
+          
+          <div class="card m-2 col-lg-2 col-md-4  col-sm-6" style="width: 200px; background-color: #F0F0F0; " >
+            <img src="gambar/lalapan.jpg" class="card-img-top" alt="..." style="height: 160px ;">
+            <div class="card-body">
+            <h5 class="card-title text-center">LALAPAN</h5>
+            <p class=" text-center"> <b>Harga mulai  <br>RP 20.000</b> <br>per porsi. </p>
+            <i class="bi bi-star-fill" style="color: darkorange;"></i>
+            <i class="bi bi-star-fill" style="color: darkorange;"></i>
+            <i class="bi bi-star-fill" style="color: darkorange;"></i>
+            <i class="bi bi-star-fill" style="color: darkorange;"></i>
+            <i class="bi bi-star-half" style="color: darkorange;"></i>
+            <a href="#" class="btn btn-outline-success">Beli Sekarang</a>
+            </div>
+          </div>
+          
+          <div class="card m-2 col-lg-2 col-md-4 col-sm-6" style="width: 200px; background-color: #F0F0F0;">
+            <img src="gambar/ayam.jpg" class="card-img-top" alt="..." style="height: 160px ;">
+            <div class="card-body">
+            <h5 class="card-title text-center">AYAM GEPREK</h5>
+            <p class=" text-center"> <b>Harga mulai  <br>RP 18.000</b> <br>per porsi. </p>
+            <i class="bi bi-star-fill" style="color: darkorange;"></i>
+            <i class="bi bi-star-fill" style="color: darkorange;"></i>
+            <i class="bi bi-star-fill" style="color: darkorange;"></i>
+            <i class="bi bi-star-fill" style="color: darkorange;"></i>
+            <i class="bi bi-star-fill" style="color: darkorange;"></i>
+            <a href="#" class="btn btn-outline-success">Beli Sekarang</a>
+            </div>
+          </div>
+          
+          <div class="card m-2 col-lg-2 col-md-4 col-sm-6" style="width: 200px;background-color: #F0F0F0;">
+            <img src="gambar/gadogado.jpeg" class="card-img-top" alt="..." style="height: 160px ;">
+            <div class="card-body">
+              <h5 class="card-title text-center">GADO-GADO</h5>
+              <p class=" text-center"> <b>Harga mulai  <br>RP 8.000</b> <br>per porsi. </p>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-half" style="color: darkorange;"></i>
+              <a href="#" class="btn btn-outline-success">Beli Sekarang</a>
+            </div>
+          </div>
+          
+          <div class="card m-2 col-lg-2 col-md-4 col-sm-6" style="width: 200px;background-color: #F0F0F0;">
+            <img src="gambar//rujak.jpg" class="card-img-top" alt="..." style="height: 160px ;">
+            <div class="card-body">
+              <h5 class="card-title text-center">RUJAK BUAH</h5>
+              <p class=" text-center"> <b>Harga mulai  <br>RP 10.000</b> <br>per porsi. </p>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <a href="#" class="btn btn-outline-success">Beli Sekarang</a>
+            </div>
+          </div>
+          
+          <div class="card m-2 col-lg-2 col-md-4 col-sm-6" style="width: 200px;background-color: #F0F0F0;">
+            <img src="gambar/gudeg.jpg" class="card-img-top" alt="..." style="height: 160px ;">
+            <div class="card-body">
+              <h5 class="card-title text-center">GUDEG</h5>
+             <p class=" text-center"> <b>Harga mulai  <br>RP 10.000</b> <br>per porsi. </p>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <a href="#" class="btn btn-outline-success">Beli Sekarang</a>
+            </div>
+          </div>
+          
+          <div class="text-center mt-3  fw-bold" style="font-family: Georgia; color: black; font-weight: 300px;"><h4> MINUMAN</h4></div>
+          
+          <div class="card m-2 mb-5 col-lg-3 col-md-6 col-sm-12 " style="width: 250px;background-color: #F0F0F0;">
+            <img src="gambar/esjeruk.jpg" class="card-img-top" alt="..." style="height: 160px ;">
+            <div class="card-body">
+              <h5 class="card-title text-center ">ES JERUK</h5>
+              <p class=" text-center"> <b>Harga mulai  <br>RP 4.000</b> <br>per gelas. </p><br>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-half" style="color: darkorange;"></i>
+              <a href="#" class="btn btn-outline-success">Beli Sekarang</a>
+            </div>
+          </div>
+          
+          <div class="card m-2 mb-5 col-lg-3 col-md-6 col-sm-12" style="width: 250px;background-color: #F0F0F0;">
+            <img src="gambar/teh.jpg" class="card-img-top" alt="..." style="height: 160px ;">
+            <div class="card-body">
+              <h5 class="card-title text-center">ES TEH</h5>
+              <p class=" text-center"> <b>Harga mulai  <br>RP 5.000</b> <br>per cup. </p><br>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <a href="#" class="btn btn-outline-success">Beli Sekarang</a>
+            </div>
+          </div>
+          
+          <div class="card m-2 mb-5 col-lg-3 col-md-6 col-sm-12" style="width: 250px;background-color: #F0F0F0;">
+            <img src="gambar/setan.jpg" class="card-img-top" alt="..." style="height: 160px ;">
+            <div class="card-body">
+              <h5 class="card-title text-center">ES GENDERUWO</h5>
+              <p class=" text-center"> <b>Harga mulai  <br>RP 12.000</b> <br>per gelas. </p><br>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <a href="#" class="btn btn-outline-success">Beli Sekarang</a>
+            </div>
+          </div>
+          
+          <div class="card m-2 mb-5 col-lg-3 col-md-6 col-sm-12" style="width: 250px;background-color: #F0F0F0;">
+            <img src="gambar/doger.jpg" class="card-img-top" alt="..." style="height: 160px ;">
+            <div class="card-body">
+              <h5 class="card-title text-center">ES DOGER</h5>
+              <p class=" text-center"> <b>Harga mulai  <br>RP 12.000</b> <br>per mangkuk. </p><br>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-fill" style="color: darkorange;"></i>
+              <i class="bi bi-star-half" style="color: darkorange;"></i>
+              <a href="#" class="btn btn-outline-success">Beli Sekarang</a>
+            </div>
+          </div>
+          
+          
+              
+          
+          
+          
+          </div>
+    </div>
+     <!-- footer -->
+     <footer class="footer bg-light py-4 mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col md-4">
+              <img src="gambar/logo.jpg" alt="" style="height: 70px;" class="mx-4 rounded-circle" />
+  
+              <br />
+              <p style="font-size:30px;">Rumah Kita <br> </p>
+              <p class="text-start">Rumah Kita ini hanya sekedar projek buatan dari dimaz </p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=" mx-2 bi bi-tiktok" viewBox="0 0 16 16">
+                <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" style="height: 20px" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=" mx-2 bi bi-telegram" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                <path
+                  d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"
+                />
+              </svg>
+            </div>
+            <div class="col md-4 mx-5 mt-3">
+              <h5>Informasi Kontak</h5>
+              <p>Email: dimazfathi98@gmail.com</p>
+              <p>Telepon: 0889-8987-6135</p>
+              <p>Alamat: Jl. Karangduren, Malang</p>
+            </div>
+            <div class="col md-4 mt-3">
+              <h5>Tautan</h5>
+              <ul class="list-unstyled">
+                <li><a class="" href="" style="text-decoration: none;">Tentang Kami</a></li>
+                <li><a class="" href="" style="text-decoration: none;">Layanan</a></li>
+                <li><a class="" href="" style="text-decoration: none;">Portofolio</a></li>
+                <li><a class="" href="" style="text-decoration: none;">Produk Kami</a></li>
+              </ul>
+            </div>
+            <div class="col md-4 mt-3">
+              <h5>Ikuti Kami</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="underline-text" href="#" style="text-decoration: none;" target="_blank">Tiktok</a>
+                </li>
+                <li>
+                  <a class="underline-text" href="#" style="text-decoration: none;" target="_blank">Twitter</a>
+                </li>
+                <li>
+                  <a class="underline-text" href="#" style="text-decoration: none;" target="_blank">Telegram</a>
+                </li>
+                <li>
+                  <a class="underline-text" href="#" style="text-decoration: none;" target="_blank">Youtube</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div>
+            <p class="text-center">&copy; Makanan tradisonal tapi tetap nikmat.</p>
+          </div>
+        </div>
+      </footer>
+      <!-- end footer -->
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
